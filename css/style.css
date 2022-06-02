@@ -1,6 +1,18 @@
 body{
   margin: 0;
 }
+ section {
+   width: 60%; 
+   margin: auto;
+   background-color: #2e333d;
+   padding: 200px;
+ }
+
+p {
+  font-family; Anton, sans-serif;
+  color: white;
+}
+
 /* NAVIGATION */
 .topnav {
   background-color: #333;
@@ -18,7 +30,7 @@ body{
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #c19210;
   color: black;
 }
 .topnav a.active {
@@ -27,7 +39,7 @@ body{
 }
 .topnav a.split {
   float: right;
-  background-color: #c19210;
+  background-color: #c1bb10;
   color: white;
 }
 .topnav .icon {
@@ -35,7 +47,7 @@ body{
 }
 section{
   width: 100%;
-  background-color: white;
+  background-color: #333;
   width: auto;
   padding: 50px;
 }
