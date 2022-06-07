@@ -13,6 +13,11 @@ p {
   color: white;
 }
 
+h1 {
+  font-family; Anton, sans-serif;
+  color: white;
+}
+
 /* NAVIGATION */
 .topnav {
   background-color: #333;
@@ -25,9 +30,9 @@ p {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 20px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
 }
 .topnav a:hover {
   background-color: #c19210;
@@ -59,11 +64,22 @@ section{
   height:400px;
   background-attatchment: fixed;
 }
+/* SLIDESHOW */
+.mySlides {
+  max-width: %100;
+  marauto auto;
+}
+
  /* MOBILE SUPPORT */
 @media only screen and (max-width: 600px) {
   #hexagonbg2 {
     display: none;
   }
+  
+  #slideshow {
+    display: none;
+  }
+  
 }
 
 @media screen and (max-width: 600px) {
