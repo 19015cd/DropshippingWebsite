@@ -67,7 +67,7 @@ section{
 /* SLIDESHOW */
 .mySlides {
   max-width: %100;
-  marauto auto;
+  margin: auto;
 }
 
  /* MOBILE SUPPORT */
